@@ -590,44 +590,12 @@ a {
   text-decoration-line: underline;
 }
 
-.m-auto {
-  margin: auto;
-}
-
-.m-20 {
-  margin: 5rem;
-}
-
-.m-2 {
-  margin: 0.5rem;
-}
-
-.m-24 {
-  margin: 6rem;
-}
-
 .m-10 {
   margin: 2.5rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
+.m-5 {
+  margin: 1.25rem;
 }
 
 .mx-auto {
@@ -640,8 +608,9 @@ a {
   margin-bottom: 8rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .flex {
@@ -680,6 +649,14 @@ a {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -688,8 +665,13 @@ a {
   border-radius: 0.5rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
+.border-8 {
+  border-width: 8px;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -715,11 +697,32 @@ a {
   --tw-gradient-to: #fff var(--tw-gradient-to-position);
 }
 
-.p-2 {
-  padding: 0.5rem;
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
