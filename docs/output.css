@@ -599,9 +599,9 @@ a {
   margin-right: auto;
 }
 
-.my-32 {
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -661,6 +661,11 @@ a {
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
 }
 
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
@@ -678,10 +683,6 @@ a {
 
 .to-purple-400 {
   --tw-gradient-to: #c084fc var(--tw-gradient-to-position);
-}
-
-.to-white {
-  --tw-gradient-to: hsl(0, 0%, 100%) var(--tw-gradient-to-position);
 }
 
 .px-10 {
