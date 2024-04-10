@@ -598,9 +598,15 @@ a {
   margin: auto;
 }
 
+ WIP
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
+=======
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+ main
 }
 
 .flex {
@@ -666,6 +672,11 @@ a {
 .border-white {
   --tw-border-opacity: 1;
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
+}
+
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -749,6 +760,7 @@ a {
   --tw-gradient-to: #c084fc var(--tw-gradient-to-position);
 }
 
+ WIP
 .to-black {
   --tw-gradient-to: #000 var(--tw-gradient-to-position);
 }
@@ -761,6 +773,8 @@ a {
   --tw-gradient-to-position: 70%;
 }
 
+=======
+ main
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
