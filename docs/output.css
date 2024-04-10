@@ -598,6 +598,7 @@ a {
   margin: auto;
 }
 
+<<<<<<< HEAD
 .m-2 {
   margin: 0.5rem;
 }
@@ -610,9 +611,17 @@ a {
   margin: 0.25rem;
 }
 
+=======
+ WIP
+>>>>>>> 97f3277abdec892ef744912d0c369f30c5de306c
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
+=======
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+ main
 }
 
 .ml-2 {
@@ -705,6 +714,11 @@ a {
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
 }
 
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
@@ -747,10 +761,24 @@ a {
   --tw-gradient-to: #c084fc var(--tw-gradient-to-position);
 }
 
+<<<<<<< HEAD
+=======
+ WIP
+.to-black {
+  --tw-gradient-to: #000 var(--tw-gradient-to-position);
+}
+
+.to-lightViolet {
+  --tw-gradient-to: hsl(264, 100%, 61%) var(--tw-gradient-to-position);
+}
+
+>>>>>>> 97f3277abdec892ef744912d0c369f30c5de306c
 .to-70\% {
   --tw-gradient-to-position: 70%;
 }
 
+=======
+ main
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
