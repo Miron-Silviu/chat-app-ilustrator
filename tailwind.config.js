@@ -19,6 +19,10 @@ module.exports = {
       // // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      backgroundImage: {
+        'radial-gradient':
+          'radial-gradient (169.40% 89.55% at 94.76% 6.29 ,hsl(276, 55%, 52%), hsl(276, 100%, 81%) )',
+      },
       colors: {
         // primary text
 
