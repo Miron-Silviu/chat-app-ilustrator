@@ -681,18 +681,12 @@ a {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-\[radial-gradient\(_at_center\2c _var\(--tw-gradient-stops\)\)\] {
-  background-image: radial-gradient( at center, var(--tw-gradient-stops));
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.from-moderateViolet {
-  --tw-gradient-from: hsl(276, 55%, 52%) var(--tw-gradient-from-position);
-  --tw-gradient-to: hsl(276 55% 52% / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.bg-radial-gradient {
+  background-image: radial-gradient(40.40% 80.55%  at 5.76% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%);
 }
 
 .from-purple-950 {
@@ -701,20 +695,12 @@ a {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-0\% {
-  --tw-gradient-from-position: 0%;
-}
-
-.to-lightViolet {
-  --tw-gradient-to: hsl(264, 100%, 61%) var(--tw-gradient-to-position);
-}
-
 .to-purple-400 {
   --tw-gradient-to: #c084fc var(--tw-gradient-to-position);
 }
 
-.to-70\% {
-  --tw-gradient-to-position: 70%;
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .px-10 {
