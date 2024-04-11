@@ -21,7 +21,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'radial-gradient':
-          'radial-gradient(40.40% 80.55%  at 5.76% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%)',
+          'radial-gradient(40.40% 80.55%  at 0.1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%)',
       },
       colors: {
         // primary text

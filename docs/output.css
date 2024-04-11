@@ -686,7 +686,7 @@ a {
 }
 
 .bg-radial-gradient {
-  background-image: radial-gradient(40.40% 80.55%  at 5.76% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%);
+  background-image: radial-gradient(40.40% 80.55%  at 0.1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%);
 }
 
 .from-purple-950 {
