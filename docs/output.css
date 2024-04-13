@@ -685,22 +685,16 @@ a {
   background-color: hsl(270 20% 96% / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
 .bg-radial-gradient {
   background-image: radial-gradient(50.40% 70.55%  at 1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%);
 }
 
-.from-purple-950 {
-  --tw-gradient-from: #3b0764 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(59 7 100 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.bg-radialGradient {
+  background-image: radial-gradient(100.40% 500.55% at 10% 8.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%);
 }
 
-.to-purple-400 {
-  --tw-gradient-to: #c084fc var(--tw-gradient-to-position);
+.bg-repeat {
+  background-repeat: repeat;
 }
 
 .bg-no-repeat {

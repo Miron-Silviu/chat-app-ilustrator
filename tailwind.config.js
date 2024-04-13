@@ -22,6 +22,8 @@ module.exports = {
       backgroundImage: {
         'radial-gradient':
           'radial-gradient(50.40% 70.55%  at 1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%)',
+        radialGradient:
+          'radial-gradient(100.40% 500.55% at 10% 8.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%)',
       },
       colors: {
         // primary text
