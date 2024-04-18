@@ -606,31 +606,13 @@ a {
   margin: auto;
 }
 
-.m-20 {
-  margin: 5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-.my-96 {
-  margin-top: 24rem;
-  margin-bottom: 24rem;
-}
-
 .my-10 {
   margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.mb-10 {
   margin-bottom: 2.5rem;
 }
 
@@ -650,28 +632,12 @@ a {
   margin-right: 8rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mt-96 {
-  margin-top: 24rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
 .flex {
   display: flex;
 }
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .h-fit {
@@ -750,6 +716,11 @@ a {
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
 }
 
+.bg-darkGrayishViolet {
+  --tw-bg-opacity: 1;
+  background-color: hsl(270 7% 64% / var(--tw-bg-opacity));
+}
+
 .bg-grayishBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(206 6% 79% / var(--tw-bg-opacity));
@@ -766,11 +737,11 @@ a {
 }
 
 .bg-radial-gradient {
-  background-image: radial-gradient(50.40% 70.55%  at 1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%);
+  background-image: radial-gradient(50.40% 70.55%  at 1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%), transparent);
 }
 
 .bg-radialGradient {
-  background-image: radial-gradient(400.40% 200.55% at 50% 9.29% , hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%) 100%);
+  background-image: radial-gradient(400.40% 200.55% at 50% 9.29% , hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%));
 }
 
 .bg-repeat {
@@ -793,10 +764,6 @@ a {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .text-base {
