@@ -10,7 +10,7 @@ h3 {
   @apply text-lg;
 }
 h1 {
-  @apply text-2xl;
+  @apply text-xs;
 }
 h2 {
   @apply text-xl;
@@ -20,6 +20,9 @@ h3 {
 }
 a {
   @apply text-blue-600 underline;
+}
+p {
+  @apply text-xs;
 }
 
 @tailwind components;
