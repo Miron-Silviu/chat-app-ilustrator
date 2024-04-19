@@ -606,6 +606,10 @@ a {
   margin: auto;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -630,6 +634,10 @@ a {
 
 .mr-32 {
   margin-right: 8rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -659,6 +667,10 @@ a {
 
 .w-full {
   width: 100%;
+}
+
+.w-8\/12 {
+  width: 66.666667%;
 }
 
 .flex-col {
@@ -716,14 +728,9 @@ a {
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
 }
 
-.bg-darkGrayishViolet {
-  --tw-bg-opacity: 1;
-  background-color: hsl(270 7% 64% / var(--tw-bg-opacity));
-}
-
 .bg-grayishBlue {
   --tw-bg-opacity: 1;
-  background-color: hsl(206 6% 79% / var(--tw-bg-opacity));
+  background-color: hsl(263 32% 94% / var(--tw-bg-opacity));
 }
 
 .bg-lightGrayishViolet {
@@ -773,7 +780,7 @@ a {
 
 .text-grayishBlue {
   --tw-text-opacity: 1;
-  color: hsl(206 6% 79% / var(--tw-text-opacity));
+  color: hsl(263 32% 94% / var(--tw-text-opacity));
 }
 
 .text-moderateViolet {

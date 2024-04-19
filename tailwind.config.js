@@ -31,7 +31,7 @@ module.exports = {
         paleViolet: 'hsl(276, 100%, 81%)', // (subheading at the top of the app UI)
         moderateViolet: 'hsl(276, 55%, 52%)', // (chat on the left)
         desaturatedDarkViolet: 'hsl(271, 15%, 43%)', // (chat on the right)
-        grayishBlue: 'hsl(206, 6%, 79%)', // (Placeholder)
+        grayishBlue: 'hsl(263, 32%, 94%)', // (Placeholder)
         veryDarkDesaturatedViolet: 'hsl(271, 36%, 24%)', //(main heading)
         darkGrayishViolet: 'hsl(270, 7%, 64%)', //(paragraph)
 
