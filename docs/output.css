@@ -737,11 +737,6 @@ p {
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
 }
 
-.bg-blue-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
-}
-
 .bg-grayishBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(263 32% 94% / var(--tw-bg-opacity));
@@ -787,20 +782,24 @@ p {
   padding-bottom: 1.25rem;
 }
 
-.text-\[7px\] {
-  font-size: 7px;
-}
-
-.text-\[9px\] {
-  font-size: 9px;
-}
-
-.text-\[8px\] {
-  font-size: 8px;
+.text-\[1px\] {
+  font-size: 1px;
 }
 
 .text-\[6px\] {
   font-size: 6px;
+}
+
+.text-\[3px\] {
+  font-size: 3px;
+}
+
+.text-\[5px\] {
+  font-size: 5px;
+}
+
+.text-\[4px\] {
+  font-size: 4px;
 }
 
 .text-grayishBlue {
