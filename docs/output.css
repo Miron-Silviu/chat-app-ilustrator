@@ -629,16 +629,20 @@ p {
   margin-left: 2.5rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .ml-7 {
   margin-left: 1.75rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.mr-10 {
+  margin-right: 2.5rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mr-32 {
@@ -647,6 +651,18 @@ p {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .flex {
@@ -704,10 +720,6 @@ p {
 
 .justify-end {
   justify-content: flex-end;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .gap-3 {
