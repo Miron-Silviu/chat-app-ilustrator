@@ -629,12 +629,12 @@ p {
   margin-left: 2.5rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .ml-7 {
   margin-left: 1.75rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .mr-10 {
@@ -651,18 +651,6 @@ p {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-9 {
-  margin-left: 2.25rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
 }
 
 .flex {
@@ -818,12 +806,12 @@ p {
   padding-bottom: 1.25rem;
 }
 
-.text-\[4px\] {
-  font-size: 4px;
+.text-\[3px\] {
+  font-size: 3px;
 }
 
-.text-\[5px\] {
-  font-size: 5px;
+.text-\[6px\] {
+  font-size: 6px;
 }
 
 .text-grayishBlue {
