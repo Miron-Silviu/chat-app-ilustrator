@@ -625,6 +625,21 @@ p {
   margin-bottom: 2.5rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .ml-10 {
   margin-left: 2.5rem;
 }
@@ -651,6 +666,14 @@ p {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -698,8 +721,41 @@ p {
   width: 100%;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .content-center {
@@ -780,6 +836,11 @@ p {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
 .bg-radial-gradient {
   background-image: radial-gradient(50.40% 70.55%  at 1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%), transparent);
 }
@@ -802,6 +863,14 @@ p {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-2\.5 {
+  padding: 0.625rem;
 }
 
 .px-10 {
