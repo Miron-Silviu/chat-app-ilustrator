@@ -633,12 +633,16 @@ p {
   margin-left: 1.75rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.ml-8 {
+  margin-left: 2rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mr-32 {
@@ -690,6 +694,10 @@ p {
   width: 100%;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -704,10 +712,6 @@ p {
 
 .justify-end {
   justify-content: flex-end;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .gap-3 {
@@ -746,6 +750,10 @@ p {
 .rounded-t-3xl {
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-8 {
@@ -806,12 +814,40 @@ p {
   padding-bottom: 1.25rem;
 }
 
-.text-\[4px\] {
-  font-size: 4px;
+.text-\[3px\] {
+  font-size: 3px;
+}
+
+.text-\[6px\] {
+  font-size: 6px;
 }
 
 .text-\[5px\] {
   font-size: 5px;
+}
+
+.text-\[4px\] {
+  font-size: 4px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-grayishBlue {
