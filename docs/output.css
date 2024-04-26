@@ -631,13 +631,14 @@ p {
   margin: auto;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .mx-auto {
@@ -655,39 +656,13 @@ p {
   margin-bottom: 1rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .ml-10 {
@@ -716,10 +691,6 @@ p {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -785,10 +756,6 @@ p {
 
 .justify-end {
   justify-content: flex-end;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-around {
@@ -867,7 +834,7 @@ p {
 }
 
 .bg-radial-gradient {
-  background-image: radial-gradient(50.40% 70.55%  at 1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%), transparent);
+  background-image: radial-gradient(50.40% 70.55%  at 1% 1.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%), transparent);
 }
 
 .bg-radialGradient {
@@ -912,8 +879,9 @@ p {
   text-align: center;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-\[5px\] {
@@ -929,29 +897,8 @@ p {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.font-bold {
+  font-weight: 700;
 }
 
 .font-extrabold {
@@ -962,24 +909,13 @@ p {
   font-weight: 300;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-thin {
-  font-weight: 100;
-}
-
-.font-medium {
-  font-weight: 500;
-}
-
 .font-normal {
   font-weight: 400;
+}
+
+.text-darkGrayishViolet {
+  --tw-text-opacity: 1;
+  color: hsl(270 7% 64% / var(--tw-text-opacity));
 }
 
 .text-grayishBlue {
@@ -992,29 +928,14 @@ p {
   color: hsl(276 55% 52% / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
 .text-veryDarkDesaturatedViolet {
   --tw-text-opacity: 1;
   color: hsl(271 36% 24% / var(--tw-text-opacity));
 }
 
-.text-lightGrayishViolet {
+.text-white {
   --tw-text-opacity: 1;
-  color: hsl(270 20% 96% / var(--tw-text-opacity));
-}
-
-.text-veryLightMagenta {
-  --tw-text-opacity: 1;
-  color: hsl(289 100% 72% / var(--tw-text-opacity));
-}
-
-.text-darkGrayishViolet {
-  --tw-text-opacity: 1;
-  color: hsl(270 7% 64% / var(--tw-text-opacity));
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
 .shadow-lg {
