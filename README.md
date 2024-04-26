@@ -27,9 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-# [](image.png)
-
-![](./screenshot.jpg)
+![![alt text](image-2.png)]
 
 ### Links
 
