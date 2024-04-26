@@ -631,14 +631,6 @@ p {
   margin: auto;
 }
 
-.m-7 {
-  margin: 1.75rem;
-}
-
-.m-9 {
-  margin: 2.25rem;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -663,12 +655,12 @@ p {
   margin-left: 2.5rem;
 }
 
-.ml-7 {
-  margin-left: 1.75rem;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
+.ml-7 {
+  margin-left: 1.75rem;
 }
 
 .mr-10 {
@@ -685,18 +677,6 @@ p {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.ml-9 {
-  margin-left: 2.25rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .flex {
@@ -762,6 +742,10 @@ p {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-3 {
@@ -926,5 +910,39 @@ p {
 
   .sm\:w-11\/12 {
     width: 91.666667%;
+  }
+}
+
+@media (min-width: 871px) and (max-width: 2600px) {
+  .md\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .md\:w-8 {
+    width: 2rem;
+  }
+
+  .md\:w-screen {
+    width: 100vw;
+  }
+
+  .md\:w-6\/12 {
+    width: 50%;
+  }
+
+  .md\:w-1\/3 {
+    width: 33.333333%;
   }
 }
