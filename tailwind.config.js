@@ -5,12 +5,12 @@ module.exports = {
     screens: {
       xs: { min: '50px', max: '320px' },
       // => @media (min-width: 640px and max-width: 767px) { ... }
-      sm: { min: '321px', max: '500px' },
+      sm: { min: '321px', max: '550px' },
 
-      md: { min: '501px', max: '850px' },
+      md: { min: '551px', max: '850px' },
       // => @media (min-width: 768px and max-width: 1023px) { ... }
 
-      lg: { min: '951x', max: '1279px' },
+      lg: { min: '851px', max: '1279px' },
       // // => @media (min-width: 1024px and max-width: 1279px) { ... }
 
       xl: { min: '1280px', max: '1535px' },
