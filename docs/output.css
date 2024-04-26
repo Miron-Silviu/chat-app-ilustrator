@@ -730,8 +730,8 @@ p {
   width: 83.333333%;
 }
 
-.w-8 {
-  width: 2rem;
+.w-7 {
+  width: 1.75rem;
 }
 
 .w-8\/12 {
@@ -853,16 +853,12 @@ p {
   padding: 0.5rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
 
-.p-\[12px\] {
-  padding: 12px;
+.p-\[11px\] {
+  padding: 11px;
 }
 
 .px-10 {
@@ -949,7 +945,7 @@ p {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-@media (min-width: 50px) and (max-width: 870px) {
+@media (min-width: 321px) and (max-width: 500px) {
   .sm\:flex {
     display: flex;
   }
