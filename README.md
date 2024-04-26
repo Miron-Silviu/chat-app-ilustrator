@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![![alt text](image-2.png)]
+[![alt text](image-2.png)]
 
 ### Links
 
