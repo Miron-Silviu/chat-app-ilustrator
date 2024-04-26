@@ -631,17 +631,14 @@ p {
   margin: auto;
 }
 
-.m-7 {
-  margin: 1.75rem;
-}
-
-.m-9 {
-  margin: 2.25rem;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .mx-auto {
@@ -659,16 +656,25 @@ p {
   margin-bottom: 1rem;
 }
 
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .ml-10 {
   margin-left: 2.5rem;
 }
 
-.ml-7 {
-  margin-left: 1.75rem;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
+.ml-7 {
+  margin-left: 1.75rem;
 }
 
 .mr-10 {
@@ -685,18 +691,6 @@ p {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.ml-9 {
-  margin-left: 2.25rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .flex {
@@ -762,6 +756,10 @@ p {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-3 {
@@ -836,7 +834,7 @@ p {
 }
 
 .bg-radial-gradient {
-  background-image: radial-gradient(50.40% 70.55%  at 1% 6.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%), transparent);
+  background-image: radial-gradient(50.40% 70.55%  at 1% 1.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%), transparent);
 }
 
 .bg-radialGradient {
@@ -877,12 +875,30 @@ p {
   padding-bottom: 1.25rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-\[5px\] {
   font-size: 5px;
 }
 
 .text-\[6px\] {
   font-size: 6px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-extrabold {
@@ -893,6 +909,15 @@ p {
   font-weight: 300;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
+.text-darkGrayishViolet {
+  --tw-text-opacity: 1;
+  color: hsl(270 7% 64% / var(--tw-text-opacity));
+}
+
 .text-grayishBlue {
   --tw-text-opacity: 1;
   color: hsl(263 32% 94% / var(--tw-text-opacity));
@@ -901,6 +926,11 @@ p {
 .text-moderateViolet {
   --tw-text-opacity: 1;
   color: hsl(276 55% 52% / var(--tw-text-opacity));
+}
+
+.text-veryDarkDesaturatedViolet {
+  --tw-text-opacity: 1;
+  color: hsl(271 36% 24% / var(--tw-text-opacity));
 }
 
 .text-white {
