@@ -795,6 +795,34 @@ p {
   border-top-right-radius: 1.5rem;
 }
 
+.rounded-tl-lg {
+  border-top-left-radius: 0.5rem;
+}
+
+.rounded-tl-xl {
+  border-top-left-radius: 0.75rem;
+}
+
+.rounded-tl-2xl {
+  border-top-left-radius: 1rem;
+}
+
+.rounded-tl-3xl {
+  border-top-left-radius: 1.5rem;
+}
+
+.rounded-bl-3xl {
+  border-bottom-left-radius: 1.5rem;
+}
+
+.rounded-bl-xl {
+  border-bottom-left-radius: 0.75rem;
+}
+
+.rounded-bl-lg {
+  border-bottom-left-radius: 0.5rem;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -1015,9 +1043,17 @@ p {
   .md\:text-left {
     text-align: left;
   }
+
+  .md\:text-right {
+    text-align: right;
+  }
 }
 
 @media (min-width: 851px) and (max-width: 1279px) {
+  .lg\:m-4 {
+    margin: 1rem;
+  }
+
   .lg\:ml-52 {
     margin-left: 13rem;
   }
@@ -1026,12 +1062,24 @@ p {
     width: 66.666667%;
   }
 
+  .lg\:w-32 {
+    width: 8rem;
+  }
+
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-right {
+    text-align: right;
   }
 }
 
 @media (min-width: 1280px) and (max-width: 1535px) {
+  .xl\:m-4 {
+    margin: 1rem;
+  }
+
   .xl\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -1045,34 +1093,34 @@ p {
     width: 91.666667%;
   }
 
+  .xl\:w-32 {
+    width: 8rem;
+  }
+
   .xl\:text-left {
     text-align: left;
   }
 }
 
 @media (min-width: 1536px) and (max-width: 2600px) {
+  .xxl\:m-4 {
+    margin: 1rem;
+  }
+
   .xxl\:ml-96 {
     margin-left: 24rem;
-  }
-
-  .xxl\:w-3\/12 {
-    width: 25%;
-  }
-
-  .xxl\:w-4\/12 {
-    width: 33.333333%;
   }
 
   .xxl\:w-2\/12 {
     width: 16.666667%;
   }
 
-  .xxl\:w-5\/12 {
-    width: 41.666667%;
-  }
-
   .xxl\:w-6\/12 {
     width: 50%;
+  }
+
+  .xxl\:w-32 {
+    width: 8rem;
   }
 
   .xxl\:text-left {
