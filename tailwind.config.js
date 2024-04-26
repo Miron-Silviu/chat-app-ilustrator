@@ -16,13 +16,13 @@ module.exports = {
       xl: { min: '1280px', max: '1535px' },
       // // => @media (min-width: 1280px and max-width: 1535px) { ... }
 
-      '2xl': { min: '1536px' },
+      xxl: { min: '1536px', max: '2600px' },
       // // => @media (min-width: 1536px) { ... }
     },
     extend: {
       backgroundImage: {
         'radial-gradient':
-          'radial-gradient(50.40% 70.55%  at 1% 1.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%), transparent)',
+          'radial-gradient(30.40% 70.55%  at 1% 1.29%, hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%), transparent)',
         radialGradient:
           'radial-gradient(400.40% 200.55% at 50% 9.29% , hsl(276, 55%, 52%)  100%, hsl(270, 20%, 96%))',
       },
