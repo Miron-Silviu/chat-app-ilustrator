@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://miron-silviu.github.io/chat-app-ilustrator/]
+- PERVIEW: [https://miron-silviu.github.io/chat-app-ilustrator/]
 
 ## My process
 
