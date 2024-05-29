@@ -23,7 +23,7 @@ Users should be able to:
 - **Bonus**: See the chat interface animate on the initial load.
   
 # LINK
-CLICK ME FOR LIVE VIEW [https://miron-silviu.github.io/chat-app-ilustrator/]
+CLICK ME FOR LIVE VIEW (https://miron-silviu.github.io/chat-app-ilustrator/)
 
 ### Screenshot
 
